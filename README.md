@@ -45,3 +45,19 @@ Master ve develop olmak üzere iki ana koldan oluşur.Master üretimin bitmiş h
 --Geliştirme kolu geliştirme ve proje arasında güvenlik sağlar.
 
 ![gitflow](https://user-images.githubusercontent.com/66273342/84819643-04410200-b021-11ea-8ffc-27736bbdb723.PNG)
+
+
+
+**Github Flow;**
+
+GitHub Flow, dağıtımların düzenli olarak yapıldığı ekipleri ve projeleri destekleyen hafif, dallanan bir iş akışıdır. Bir proje üzerinde çalışırken, herhangi bir zamanda devam eden bir dizi farklı özellik veya fikre sahip olunabilir. 
+
+Github ile yeni bir **branch** oluşturulması gerekir. Böylelikle yapılacak değişiklikler ana dalı etkilememiş olur. Oluşturulan bu şubeye bir dosya eklendiğinde, düzenlendiğinde veya silindiğinde, **commit** işlemi gerçekleştirilmiş olup ve bunlar şubeye eklenmiştir. Oluşturduğumuz bu fikri paylaşmak veya fikir almak için ise **pull request** oluşturarak geri bildirimler de alınabilir. Paylaşılan yenilik tartışılır, test edilir, incelenir. Bunun sonrasında değişiklikler ana dal ile **merge** edilir yani birleştirilir.
+
+**Github Flow ne zaman kullanılır?**
+
+--Sürekli Entegrasyon ve sürekli dağıtım için uygundur.
+
+--Küçük iyileştirme yapılacağı zaman kullanılabilir.
+
+![githubflow](https://user-images.githubusercontent.com/66273342/84819563-e70c3380-b020-11ea-878d-f26312471823.PNG)
