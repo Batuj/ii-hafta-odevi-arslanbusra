@@ -26,14 +26,14 @@
    - [ ] MVP vs MVW vs MVU Pattern arasındaki farkı araştır
    - [ ] Model-View-Update (MVU) nedir?
 
-GitFlow;
+**GitFlow;**
 
 Gitflow, zamanlanmış bir yayın döngüsü olan projeler için idealdir. Farklı dallara çok özel roller atar ve nasıl ve ne zaman etkileşime girmeleri gerektiğini tanımlar.
 
 Master ve develop olmak üzere iki ana koldan oluşur.Master üretimin bitmiş halini develop ise geliştirme amaçlı kullanılan bir daldır. Bir de ana koldan kopmadan ve master ile birleşmeden gelişen özellik dalları bulunur. Bunlar; feature,hotfix,release olarak tanımlanır.
 
-Feature; özellik dalları, gelecek sürümler için yeni özellikler geliştirmek için kullanılır. Gelişmeden ayrılabilir ve gelişmek üzere birleşmelidir.
+**Feature;** özellik dalları, gelecek sürümler için yeni özellikler geliştirmek için kullanılır. Gelişmeden ayrılabilir ve gelişmek üzere birleşmelidir.
 
-Hotfix; düzeltme dalları, master’ın istenmeyen durumuna derhal davranmak için gereklidir. Ustadan ayrılabilir ve ustaya karışıp gelişmelidir.
+**Hotfix;** düzeltme dalları, master'ın istenmeyen durumuna derhal davranmak için gereklidir. Ustadan ayrılabilir ve ustaya karışıp gelişmelidir.
 
-Release; sürüm dalları yeni bir üretim sürümünün hazırlanmasını sağlar. Birçok küçük hatanın düzeltilmesine ve bir sürüm için meta verilerin hazırlanmasına izin verir. Gelişimden ayrılabilir ve ustalaşıp gelişmelidir.
+**Release;** sürüm dalları yeni bir üretim sürümünün hazırlanmasını sağlar. Birçok küçük hatanın düzeltilmesine ve bir sürüm için meta verilerin hazırlanmasına izin verir. Gelişimden ayrılabilir ve ustalaşıp gelişmelidir.
