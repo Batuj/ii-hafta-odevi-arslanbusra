@@ -61,3 +61,23 @@ Github ile yeni bir **branch** oluşturulması gerekir. Böylelikle yapılacak d
 --Küçük iyileştirme yapılacağı zaman kullanılabilir.
 
 ![githubflow](https://user-images.githubusercontent.com/66273342/84819563-e70c3380-b020-11ea-878d-f26312471823.PNG)
+
+
+**Değişiklikleri Merge Etme Yöntemleri**
+
+**1.Merge Commit:** Geliştirilen dalda tutulan tüm commit geçmişini ana dala aktarır.
+
+**2.Rebase and Merge:** Yapılan tüm commitleri birleştirme commiti kullanmadan tek tek taban dalına ekler.
+
+**3.Squash and Merge:** Katkıda bulunan kişinin yaptığı tüm değişiklikleri bir konu dalında görmek yerine tek bir commit ile varsayılan dalda birleştirme yapılır.
+
+**Rebase ve Merge Farkları Nelerdir?**
+
+İkisinin de amacı iki branchi birleştirmek olan yapılardır. Tek farkları aşağıdaki resimde de görüldüğü gibi daha sade bir birleştirme için rebease, fakat tüm geçmişin ayrıntılı bir şekilde görülmesi için merge yapılması daha uygun olacaktır. Ekip şeklinde çalışılıyor ise özellikle merge önerilir.
+
+
+![mergerebease](https://user-images.githubusercontent.com/66273342/85228113-299b8a80-b3ea-11ea-9b1c-1b60e9f20954.png)
+
+
+
+
