@@ -79,5 +79,53 @@ Github ile yeni bir **branch** oluşturulması gerekir. Böylelikle yapılacak d
 ![mergerebease](https://user-images.githubusercontent.com/66273342/85228113-299b8a80-b3ea-11ea-9b1c-1b60e9f20954.png)
 
 
+**Razor Pages Nedir?**
+
+ASP .NET içinde yer alan MVC ile uygulama geliştirmek kolay olsa da küçük çaplı uygulamalarda bu uygulamanın kullanılması gerekmeyebilir. Razor Pages daha küçük uygulamalarda kullanılan web uygulama geliştirme yöntemidir.
+
+**Console Application Nedir?**
+
+Console grafiksel olmayan, kullanıcıdan bilgi alıp verme kısmını siyah ekran üzerinde gerçekleştiren bir uygulamadır. Daha çok programcılığa giriş kısmında kullanılır.
+
+Bir de Windows Form Application kullanımı mevcuttur. Bu ise daha çok görsel eklentilerin olduğu bir uygulamadır. Günümüzde kullanımı yaygındır. Grafik arayüzüne sahip bir uygulamadır.
+
+
+**Json C# Serialize ve Deserialize Nedir?**
+
+**Serialize:** Bir datayı kolayca erişebilir hale getirmek için string-->nesneye çevirme olayını yapma kısmına denir.
+
+**Deserialize:** Nesneye çevrilmiş datayı hangi dilde yazılıyor ise ona çevirme olayıdır. Kısacası; nesne-->string.
+
+**MVC Nedir?**
+
+Model uygulamaların verilerinin tutulmasından sorumludur.
+
+View bu kısımda Business Layer içermeden sunum kısmından sorumludur.
+
+Controller ise kullanıcıdan aldığı veriler ile Business Layer'ın işlenmesi için gerekli hizmetlerin çağrılmasından sorumludur. İşlenen verilerin sunulması için view ile tekrar bağlantı kurar.
+
+Aşağıda şeması verilmiştir.
+
+
+![mvc-architecture](https://user-images.githubusercontent.com/66273342/85952082-aa6d0000-b96f-11ea-8b8b-a182cfc0aab4.gif)
+
+**MVVM Nedir?**
+
+MVVM yapısına aslında WPF de denebilir. Burada View ile bilgiler Presentation Model tarafından tutulur. Business Layer ile koordinasyonu sağlayıp View için karar verme kısmını azaltıyor.
+
+Aşağıda şeması mevcuttur.
+
+
+![mvvm](https://user-images.githubusercontent.com/66273342/85952101-c07ac080-b96f-11ea-805e-7b4f64b3ecdc.png)
+
+
+**MVP Nedir?**
+
+MVP MVC’den evrilmiştir. Sadece bağımlılıkları farklıdır. Inputları direk View karşılar. Burada View Presenter’ı biliyor. Presenter ise View’ı interface aracılığı ile biliyor. Kısacası MVC arasındaki en büyük fark View’ın işlemlerini(güncelleme, bilgi alışverişi) bir interface aracığı ile halledebilmesidir.
+
+
+![MVP-1](https://user-images.githubusercontent.com/66273342/85952128-e43e0680-b96f-11ea-9784-e2a654fb8bd3.png)
+
+
 
 
