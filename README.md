@@ -124,7 +124,7 @@ Aşağıda şeması mevcuttur.
 MVP MVC’den evrilmiştir. Sadece bağımlılıkları farklıdır. Inputları direk View karşılar. Burada View Presenter’ı biliyor. Presenter ise View’ı interface aracılığı ile biliyor. Kısacası MVC arasındaki en büyük fark View’ın işlemlerini(güncelleme, bilgi alışverişi) bir interface aracığı ile halledebilmesidir.
 
 
-![MVP-1](https://user-images.githubusercontent.com/66273342/85952128-e43e0680-b96f-11ea-9784-e2a654fb8bd3.png)
+![MVP-1](https://user-images.githubusercontent.com/66273342/85952374-8b6f6d80-b971-11ea-9113-73b7b7dd2595.png)
 
 
 
